@@ -5,30 +5,9 @@
 
 This project provides an implementation of an Encoder layers and Decoder layers of a Transformer. It includes detailed implementations of both the encoder and decoder components, utilizing multi-head attention mechanisms. This model structure can be applied to various sequence-to-sequence tasks, such as language translation.
 
-graph TD
-    A[Input] --> B[TransformerEncoder]
-    B --> C{{"For each layer<br>1 to n_layers"}}
-    C --> |Layer i| D[TransformerEncoderLayer]
-    D --> E[QKV Linear]
-    E --> F[Reshape & Permute]
-    F --> G[MultiHeadSelfAttention]
-    G --> H[Reshape]
-    H --> I[Dropout]
-    I --> J{{"Add & Norm"}}
-    J --> K[Feed Forward]
-    K --> L[Dropout]
-    L --> M{{"Add & Norm"}}
-    M --> |Next Layer| C
-    C --> |Output| N[Final Output]
+![image](https://github.com/user-attachments/assets/db714da4-2c53-42e8-b778-0b462a8df7e7) ![image](https://github.com/user-attachments/assets/619e2cc2-939b-40bc-93c0-b4e49f74b3c2)
 
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px;
-    classDef process fill:#e1f5fe,stroke:#01579b,stroke-width:2px;
-    classDef decision fill:#fff9c4,stroke:#fbc02d,stroke-width:2px;
-    classDef io fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px;
 
-    class A,N io;
-    class B,D,E,F,G,H,I,K,L process;
-    class C,J,M decision;
 
 ## Prerequisites
 
