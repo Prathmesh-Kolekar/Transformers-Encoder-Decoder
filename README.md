@@ -1,4 +1,4 @@
-# Transformers-Encoder-Decoder
+# Transformers-Encoder Layer and Decoder Layer
 
 
 ## Project Overview
@@ -38,6 +38,11 @@ To use the Encoder-Decoder model, you can run the provided Jupyter notebooks and
 - **`Decoder_arch_8heads.ipynb`:** This notebook includes the implementation of the decoder architecture, also with 8 attention heads.
 
 - **`feedforward.py`:** This script implements the feedforward neural network layer used in the model.
+ 
+- **`Multi_head_crossattn.py`:** This script implements the Multi Head Cross Attention used in the model.
+
+- **`Multi_head_selfattn.py`:** This script implements the Multi Head Self Attention used in the model.
+ 
 
 ### Running the Model
 
