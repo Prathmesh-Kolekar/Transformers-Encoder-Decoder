@@ -3,7 +3,7 @@
 
 ## Project Overview
 
-This project provides an implementation of an Encoder-Decoder model architecture. It includes detailed implementations of both the encoder and decoder components, utilizing multi-head attention mechanisms. This model structure can be applied to various sequence-to-sequence tasks, such as language translation.
+This project provides an implementation of an Encoder layers and Decoder layers of a Transformer. It includes detailed implementations of both the encoder and decoder components, utilizing multi-head attention mechanisms. This model structure can be applied to various sequence-to-sequence tasks, such as language translation.
 
 ## Prerequisites
 
@@ -17,8 +17,8 @@ Before running the code, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone Prathmesh-Kolekar/Transformers-Encoder-Decoder
+   cd Transformers-Encoder-Decoder
    ```
 
 2. **Install required packages:**
